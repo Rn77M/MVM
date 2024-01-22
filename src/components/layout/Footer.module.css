@@ -3,6 +3,8 @@
     color: #fff;
     padding: 3em;
     text-align: center;
+    user-select: none;
+    margin-top: 1em;
 }
 
 .social_list{
@@ -11,13 +13,16 @@
     list-style-type: none;
 }
 
-.social_list li{
+.social_list li a{
     margin: 0 1em;
+    cursor: pointer;
+    transition: .5s;
+    color: white;
 }
 
 
-.social_list li:hover{
-    color: #ffbb33;
+.social_list li a:hover{
+    color: #8a1607;
 }
 
 .social_list svg{
@@ -30,9 +35,14 @@
     margin-top: 6em;
 }
 
-.copy_right{
+.copy_right span{
     font-weight: bold;
-    color: #ffbb33;
+    color: #8a1607;
+}
+
+.copy_right {
+    font-weight: bold;
+    color: #ffffff;
 }
 
 

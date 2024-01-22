@@ -1,0 +1,95 @@
+.artesacra_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+    user-select: none;
+}
+
+.artesacra_container .art{
+    font-size: 3.5em;
+    margin-bottom: .5em;
+}
+
+.artesacra_container h1{
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+
+.artesacra_container h2{
+    font-size: 1.25em;
+    margin-bottom: .5em;
+    color: rgb(95, 91, 91);
+}
+
+
+.artesacra_container img{
+    font-size: 3.5em;
+    margin-bottom: .5em;
+    box-shadow: 4px 4px 20px 4px gray;
+    transition: .7s;
+}
+
+.artesacra_container img:hover{
+    font-size: 3.5em;
+    margin-bottom: .5em;
+    box-shadow: none;
+    transform: scale(1.05);
+}
+
+
+.artesacra_container .senhora{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(160%);
+}
+
+
+.artesacra_container .pilar{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(120%);
+}
+
+
+.artesacra_container .fatima{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(160%);
+}
+
+
+.artesacra_container .familia{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(135%);
+    box-shadow: 4px 4px 20px 4px gray;
+}
+
+
+.artesacra_container .arte{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(155%);
+    box-shadow: 4px 4px 20px 4px gray;
+}
+
+.artesacra_container .lourdes{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(150%);
+    box-shadow: 4px 4px 20px 4px gray;
+}
+
+
+
+
+

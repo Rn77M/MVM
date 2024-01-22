@@ -4,7 +4,7 @@ import Container from './Container'
 
 import styles from './Navbar.module.css'
 
-import logo from '../../img/costs_logo.png'
+import logo from '../../img/coracao.png'
 
 function Navbar(){
     return (
@@ -18,10 +18,10 @@ function Navbar(){
               <Link to="/">Home</Link>
             </li>
             <li className={styles.item}>
-              <Link to="/projects">Projetos</Link>
+              <Link to="/croche">Crochê</Link>
             </li>
             <li className={styles.item}>
-              <Link to="/company">Empresa</Link>
+              <Link to="/artesacra">Arte Sacra</Link>
             </li>
             <li className={styles.item}>
               <Link to="/contact">Contato</Link>

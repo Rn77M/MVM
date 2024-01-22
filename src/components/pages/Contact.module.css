@@ -1,0 +1,117 @@
+*{
+    user-select: none;
+}
+
+
+.contact_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+    user-select: none;
+}
+.contact_container h1{
+    font-size: 2.5em;
+    margin-bottom: .5em;
+}
+
+.contact_container .cnt{
+    font-size: 2.5em;
+    margin-bottom: 9.5em;
+    position: relative;
+    top: -250px;
+    right: 40px;
+}
+.contact_container h2{
+    font-size: 1.25em;
+    margin-bottom: .5em;
+    color: rgb(95, 91, 91);
+}
+.container_perfil .perfil{
+    width: 200px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(120%);
+    position: relative;
+    top: 100px;
+    box-shadow: 4px 4px 20px 4px gray;
+}
+
+.qsm{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    user-select: none;
+    text-align: justify;
+    position: relative;
+    top: -960px;
+    left: 850px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px 4px gray;
+}
+
+.qsm .qs{
+  margin-bottom: 2em;
+}
+
+.contact_list{
+    list-style: none;
+    position: relative;
+    top:-550px;
+    right: 40px;
+    background: #dddee0;
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px 4px gray;
+}
+
+.contact_list li a{
+    font-size: 3.5em;
+    text-decoration: none;
+}
+
+.contact_container .facebook a{
+    color: blue;
+}
+.contact_container .whats a{
+    color: rgb(23, 139, 52);
+}
+
+.instagram a {
+    /* color: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #FFDC80); */
+    /* Adicione as cores desejadas, essas são as cores do Instagram */
+    color:#405DE6;
+    animation: gradientAnimation 9s infinite; /* Pode ajustar a velocidade da animação conforme necessário */
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      color: #6b80eb;
+    }
+    20% {
+      color: #945ddb;
+    }
+    30% {
+      color: #833AB4;
+    }
+    40% {
+      color: #C13584;
+    }
+    50% {
+      color: #E1306C;
+    }
+    80% {
+      color: #FD1D1D;
+    }
+    90% {
+      color: #F56040;
+    }
+    100% {
+      color: #e6391b;
+    }
+  }

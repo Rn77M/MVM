@@ -1,33 +1,25 @@
 {
-  "projects": [
-    {
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "name": "RN17",
-      "budget": "15000",
-      "costs": 0,
-      "services": [],
-      "id": 1
-    }
-  ],
+  "projects": [],
   "categories": [
     {
       "id": 1,
-      "name": "Infra"
+      "name": "Arte Sacra"
     },
     {
       "id": 2,
-      "name": "Desenvolvimento"
+      "name": "Custura"
     },
     {
       "id": 3,
-      "name": "Design"
+      "name": "Crochê"
     },
     {
       "id": 4,
-      "name": "Planejamento"
+      "name": "Pintura"
+    },
+    {
+      "id": 4,
+      "name": "Restauração"
     }
   ]
 }
