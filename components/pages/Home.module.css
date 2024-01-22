@@ -1,0 +1,76 @@
+.home_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+    user-select: none;
+}
+
+.home_container h1{
+    font-size: 2.5em;
+    margin-bottom: .5em;
+}
+
+.home_container h1 span{
+    color: #8a1607;
+    padding: 0 .2em;
+    background: #222;
+}
+
+.home_container p{
+    margin-bottom: 4.5em;
+    color: #7b7b7b;
+}
+
+.home_container img{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    transition: .7s;
+}
+
+.home_container img:hover{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    box-shadow: none;
+    transform: scale(1.05);
+}
+
+.home_container .astro{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(120%);
+    box-shadow: 4px 4px 20px 4px gray;
+}
+
+.home_container .vestido{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(140%);
+    box-shadow: 4px 4px 20px 4px gray;
+}
+
+.home_container .arte{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(155%);
+    box-shadow: 4px 4px 20px 4px gray;
+}
+
+.home_container .familia{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(135%);
+    box-shadow: 4px 4px 20px 4px gray;
+}
+
+.home_container a {
+    margin-bottom: 1.5em;
+}
