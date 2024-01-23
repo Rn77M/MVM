@@ -54,6 +54,8 @@
   border-radius: 20px;
   box-shadow: 4px 4px 20px 4px gray;
   margin-bottom: 1em; /* Ajuste o valor conforme necessário */
+  position:relative;
+  bottom: 100px;
 }
 
 .qsm .qs {
