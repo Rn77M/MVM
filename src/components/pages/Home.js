@@ -19,22 +19,39 @@ function Home(){
         <Link to="/contact">
           <img src={Astro} className={styles.astro} title="Gostou da Arte? Clique Aqui!"/>
         </Link>
+
+        
+        <LinkButton to="/contact" text="Compre Agora"/>
+        
         <Link to="/contact">
           <img src={Cabecudos} className={styles.astro} title="Gostou da Arte? Clique Aqui!"/>
         </Link>
+
+        <LinkButton to="/contact" text="Compre Agora"/>
         <Link to="/contact">
           <img src={Vestido} className={styles.vestido} title="Gostou da Arte? Clique Aqui!"/>
         </Link>
+
+        
+        <LinkButton to="/contact" text="Compre Agora"/>
         <LinkButton to="/artesacra" text="Projetos de Arte Sacra"/>
         <Link to="/contact">
           <img src={Arte} className={styles.arte} title="Gostou da Arte? Clique Aqui!"/>
         </Link>
+
+        
+        <LinkButton to="/contact" text="Compre Agora"/>
         <Link to="/contact">
           <img src={Familia} className={styles.familia} title="Gostou da Arte? Clique Aqui!"/>
         </Link>
+
+        
+        <LinkButton to="/contact" text="Compre Agora"/>
         <Link to="/contact">
           <img src={savings} alt="MVM" title="Você chegou no fim do home. Clique Aqui!"/>
         </Link>
+        
+        <LinkButton to="/contact" text="Você chegou no fim do home. Clique Aqui!"/>
       </section>
     )
 }
