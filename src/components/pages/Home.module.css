@@ -85,7 +85,7 @@
     text-decoration: none;
     transition:  .5s;
     user-select: none;
-    border: 1px solid #ffffff;
+    border: 1px solid transparent;
     border-radius: 10px;
     margin-bottom: 3em;
     font-size: 20px;
