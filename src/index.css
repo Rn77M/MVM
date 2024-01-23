@@ -3,6 +3,22 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', 'sans-serif';
+  -webkit-tap-highlight-color: transparent;
+}
+/* Estilo da barra de rolagem */
+::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+  box-shadow: 4px 4px 20px 4px gray;
+}
+
+/* Estilo do indicador de rolagem (thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: #8a1607; /* Cor de fundo do indicador de rolagem */
+}
+
+/* Estilo do indicador de rolagem quando hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #e7341d; /* Cor de fundo do indicador de rolagem ao passar o mouse por cima */
 }
 
 html, body, #root {
