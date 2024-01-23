@@ -1,27 +1,61 @@
-.container{
-    width: 1200px;
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+.container {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     flex-wrap: wrap;
+    width: 100%; /* Faz a largura ser igual à largura atual da tela */
+    max-width: 1200px; /* Defina um valor adequado para a largura máxima da tela */
+    padding: 10px; /* Adicione algum espaçamento interno para melhorar a aparência */
 }
 
-
-
-
-
-.min_height{
+.min_height {
     min-height: 75%;
 }
 
-.start{
+.start {
     justify-content: flex-start;
 }
 
-.column{
+.column {
     flex-direction: column;
     justify-content: flex-start;
 }
+
+/* PARA CELULAR */
+
+@media (max-width: 600px) and (max-height: 1300px) {
+    .container {
+        width: 100%; /* Faz a largura ser igual à largura atual da tela */
+        max-width: 100%; /* Pode ser útil em certos layouts para garantir que não ultrapasse a largura máxima */
+        margin: 0px;
+    }
+    
+    .min_height {
+        min-height: 75%;
+        width: 100%;
+    }
+    
+    .start {
+        justify-content: flex-start;
+    }
+    
+    .column {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 
