@@ -1,3 +1,7 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
 .home_container{
     width: 100%;
     display: flex;
@@ -73,4 +77,47 @@
 
 .home_container a {
     margin-bottom: 1.5em;
+}
+@media (max-width: 600px) and (max-height: 1300px) {
+    .home_container {
+        width: 100%;
+        display: flex;
+        flex-direction: column; /* Ajuste para garantir que seja uma coluna em telas menores */
+        align-items: center; /* Centralize o conteúdo */
+        padding: 0; /* Ajuste o valor de padding conforme necessário */
+    }
+
+    .home_container h1 {
+        font-size: 2em;
+        margin-bottom: .5em;
+    }
+    .home_container p{
+        margin-bottom: 2.5em;
+        color: #7b7b7b;
+    }
+
+    .home_container img,
+    .home_container .astro,
+    .home_container .vestido,
+    .home_container .arte,
+    .home_container .familia {
+        width: 100%;
+        max-width: 200px;
+        margin: 1.2em;
+        border-radius: 20px;
+        transition: .7s;
+    }
+
+    .home_container img:hover,
+    .home_container .astro:hover,
+    .home_container .vestido:hover,
+    .home_container .arte:hover,
+    .home_container .familia:hover {
+        width: 100%;
+        max-width: 200px;
+        margin: 1.2em;
+        border-radius: 20px;
+        box-shadow: none;
+        transform: scale(1.05);
+    }
 }
