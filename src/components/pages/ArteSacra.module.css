@@ -1,3 +1,6 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+}
 .artesacra_container{
     width: 100%;
     display: flex;
@@ -133,6 +136,8 @@
         transform: scale(1.05);
     }
 }
+
+
 
 
 
