@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function LinkButton({ to, text, classeBotao}){
     return (
-      <Link className={`${styles.btn} ${classeBotao}`} to={to}>
+      <Link className={`${classeBotao} ${styles.btn}`} to={to}>
         {text}
       </Link>
     )
