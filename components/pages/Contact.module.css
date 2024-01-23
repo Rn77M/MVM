@@ -154,6 +154,8 @@
   .qsm {
       padding: 1em; /* Ajuste o valor de padding conforme necessário */
       margin-bottom: 1em;
+      position: relative;
+      bottom: 50px;
   }
 
   .qsm .qs {
