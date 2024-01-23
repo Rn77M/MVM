@@ -1,6 +1,6 @@
-import {FaFacebook, FaInstagram, FaWhatsapp} from 'react-icons/fa'
-import styles from './Contact.module.css'
-import Maria from '../../img/mvicente.jpg'
+import {FaFacebook, FaInstagram, FaWhatsapp} from 'react-icons/fa';
+import styles from './Contact.module.css';
+import Maria from '../../img/mvicente.jpg';
 
 function Contact(){
     return (
@@ -27,8 +27,10 @@ function Contact(){
           <div className={styles.qsm}>
           <h1 className={styles.qs}>Quem eu sou?</h1>
             <p>
-                O Fortuna velut luna statu variabilis,semper crescis
-aut decrescis;vita detestabilis nunc obdurat et tunc curat ludo mentis aciem, egestatem, potestatem dissolvit ut glaciem.Na Idade Média distante, uns boémios, os goliardos (clérigos e estudantes), cantavam e tocavam pela noite, nas ruas das cidades, poemas normalmente em latim medieval,  e a sociedade; eram poemas contra o poder estabelecido, a sorte e louvando a vida, as tabernas e o vinho, o jogo e o amor, as mulheres. Estes “poetas”  percorreram a Idade Média, eram, na sua maioria, estudantes das universidades de Espanha, de França, de Itália, de Inglaterra, da Alemanha. Eram, em geral, poemas curtos, mas também outros mais longos.
+            Meu nome é Maria Vicente, e desde a minha adolescência, mergulhei no maravilhoso mundo do crochê. O artesanato tornou-se meu refúgio, uma terapia que não apenas desenvolvi, mas que também foi fundamental para superar os desafios da depressão. Com agulhas e fios, encontrei não apenas uma forma de expressar minha criatividade, mas também uma maneira de resgatar a alegria e a vitalidade em minha vida.
+
+Há quase três anos, descobri e me encantei pela arte sacra. Cada peça que produzo não é apenas uma expressão de habilidade manual, mas uma manifestação profunda de espiritualidade. Através da arte sacra, encontrei uma conexão mais profunda com minha fé, transformando cada criação em uma jornada espiritual única.
+
             </p>
           </div>
         </>
