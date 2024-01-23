@@ -1,15 +1,27 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+}
 .btn{
-    background: #222;
-    color: #fff;
+    background: transparent;
+    color: #8a1607;
     padding: 0.5em 1em;
     text-decoration: none;
-    transition: .5s;
+    transition:  .5s;
     user-select: none;
+    border: 1px solid #8a1607;
+    border-radius: 10px;
+    margin-bottom: 2em;
+    font-size: 20px;
+    cursor: pointer;
+    filter: drop-shadow(0 0 10px #850404) brightness(1.1);
 }
 
 .btn:hover{
-    color: #e96949;
+    background: #8a1607;
+    color: white;
+    border: none;
 }
+
 
 
 
