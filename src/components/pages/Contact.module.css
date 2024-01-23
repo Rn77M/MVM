@@ -1,4 +1,5 @@
 * {
+  -webkit-tap-highlight-color: transparent;
   user-select: none;
 }
 
@@ -10,6 +11,8 @@
   justify-content: center;
   padding: 2em; /* Ajuste o valor de padding conforme necessário */
   user-select: none;
+  position: relative;
+  bottom: 150px;
 }
 
 .contact_container h1 {
@@ -20,6 +23,8 @@
 .contact_container .cnt {
   font-size: 2.5em;
   margin-bottom: 1.5em; /* Ajuste o valor conforme necessário */
+  position: relative;
+  bottom: 10px;
 }
 
 .contact_container h2 {
@@ -63,6 +68,7 @@
   box-shadow: 4px 4px 20px 4px gray;
   width: 100%;
   margin-top: 1em; /* Ajuste o valor conforme necessário */
+  font-size: 40px;
 }
 
 .contact_list li a {
@@ -156,6 +162,7 @@
   .contact_list {
       padding: 1em; /* Ajuste o valor de padding conforme necessário */
       margin-top: -em;
+      font-size: 23px;
   }
 
   .contact_list li a {
