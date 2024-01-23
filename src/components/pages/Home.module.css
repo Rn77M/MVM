@@ -1,3 +1,7 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
 .home_container{
     width: 100%;
     display: flex;
@@ -74,6 +78,31 @@
 .home_container a {
     margin-bottom: 1.5em;
 }
+.project{
+    background: #8a1607;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition:  .5s;
+    user-select: none;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin-bottom: 3em;
+    font-size: 20px;
+    cursor: pointer;
+    filter: drop-shadow(0 0 10px #850404) brightness(1.1);
+}
+
+.project:hover{
+    background: white;
+    color: #8a1607;
+    border: 1px solid #8a1607;
+}
+
+
+
+
+
 @media (max-width: 600px) and (max-height: 1300px) {
     .home_container {
         width: 100%;
