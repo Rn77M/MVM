@@ -15,7 +15,7 @@ function Home(){
         <h1>Bem-vindo ao <span>MVM</span></h1>
         <p><em><strong>Maria Vicente Melo</strong></em></p>
         <p>Comece a comprar agora!</p>
-        <LinkButton to="/croche" text="Projetos de crochê" className={styles.project}/>
+        <LinkButton to="/croche" text="Projetos de crochê" classeBotao={styles.project}/>
         <Link to="/contact">
           <img src={Astro} className={styles.astro} title="Gostou da Arte? Clique Aqui!"/>
         </Link>
@@ -39,7 +39,7 @@ function Home(){
         <LinkButton to="/contact" text="Compre Agora"/>
         <br/>
         
-        <LinkButton to="/artesacra" text="Projetos de Arte Sacra" className={styles.project}/>
+        <LinkButton to="/artesacra" text="Projetos de Arte Sacra" classeBotao={styles.project}/>
         <Link to="/contact">
           <img src={Arte} className={styles.arte} title="Gostou da Arte? Clique Aqui!"/>
         </Link>
