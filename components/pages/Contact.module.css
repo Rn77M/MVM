@@ -1,117 +1,176 @@
-*{
-    user-select: none;
+* {
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
 }
 
-
-.contact_container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 4em;
-    user-select: none;
-}
-.contact_container h1{
-    font-size: 2.5em;
-    margin-bottom: .5em;
+.contact_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em; /* Ajuste o valor de padding conforme necessário */
+  user-select: none;
+  position: relative;
+  bottom: 150px;
 }
 
-.contact_container .cnt{
-    font-size: 2.5em;
-    margin-bottom: 9.5em;
-    position: relative;
-    top: -250px;
-    right: 40px;
-}
-.contact_container h2{
-    font-size: 1.25em;
-    margin-bottom: .5em;
-    color: rgb(95, 91, 91);
-}
-.container_perfil .perfil{
-    width: 200px;
-    margin: 1.2em;
-    border-radius: 20px;
-    filter: contrast(120%);
-    position: relative;
-    top: 100px;
-    box-shadow: 4px 4px 20px 4px gray;
+.contact_container h1 {
+  font-size: 2.5em;
+  margin-bottom: .5em;
 }
 
-.qsm{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1em;
-    user-select: none;
-    text-align: justify;
-    position: relative;
-    top: -960px;
-    left: 850px;
-    border-radius: 20px;
-    box-shadow: 4px 4px 20px 4px gray;
+.contact_container .cnt {
+  font-size: 2.5em;
+  margin-bottom: 1.5em; /* Ajuste o valor conforme necessário */
+  position: relative;
+  bottom: 10px;
 }
 
-.qsm .qs{
-  margin-bottom: 2em;
+.contact_container h2 {
+  font-size: 1.25em;
+  margin-bottom: .5em;
+  color: rgb(95, 91, 91);
 }
 
-.contact_list{
-    list-style: none;
-    position: relative;
-    top:-550px;
-    right: 40px;
-    background: #dddee0;
-    padding: 2em;
-    border-radius: 20px;
-    box-shadow: 4px 4px 20px 4px gray;
+.container_perfil .perfil {
+  width: 100px;
+  margin: 0;
+  margin-bottom: 1em; /* Ajuste o valor conforme necessário */
+  border-radius: 20px;
+  filter: contrast(120%);
+  box-shadow: 4px 4px 20px 4px gray;
 }
 
-.contact_list li a{
-    font-size: 3.5em;
-    text-decoration: none;
+.qsm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em; /* Ajuste o valor de padding conforme necessário */
+  user-select: none;
+  text-align: justify;
+  border-radius: 20px;
+  box-shadow: 4px 4px 20px 4px gray;
+  margin-bottom: 1em; /* Ajuste o valor conforme necessário */
 }
 
+.qsm .qs {
+  margin-bottom: 1em; /* Ajuste o valor conforme necessário */
+}
+
+.contact_list {
+  list-style: none;
+  background: #dddee0;
+  padding: 1em; /* Ajuste o valor de padding conforme necessário */
+  border-radius: 20px;
+  box-shadow: 4px 4px 20px 4px gray;
+  width: 100%;
+  margin-top: 1em; /* Ajuste o valor conforme necessário */
+  font-size: 40px;
+}
+
+.contact_list li a {
+  font-size: 2em;
+  text-decoration: none;
+}
+
+.contact_list .whats{
+  color: green;
+}
 .contact_container .facebook a{
-    color: blue;
+  color: blue;
 }
 .contact_container .whats a{
-    color: rgb(23, 139, 52);
+  color: rgb(23, 139, 52);
 }
 
 .instagram a {
-    /* color: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #FFDC80); */
-    /* Adicione as cores desejadas, essas são as cores do Instagram */
-    color:#405DE6;
-    animation: gradientAnimation 9s infinite; /* Pode ajustar a velocidade da animação conforme necessário */
+  /* color: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #FFDC80); */
+  /* Adicione as cores desejadas, essas são as cores do Instagram */
+  color:#405DE6;
+  animation: gradientAnimation 9s infinite; /* Pode ajustar a velocidade da animação conforme necessário */
+}
+
+@keyframes gradientAnimation {
+  0% {
+    color: #6b80eb;
+  }
+  20% {
+    color: #945ddb;
+  }
+  30% {
+    color: #833AB4;
+  }
+  40% {
+    color: #C13584;
+  }
+  50% {
+    color: #E1306C;
+  }
+  80% {
+    color: #FD1D1D;
+  }
+  90% {
+    color: #F56040;
+  }
+  100% {
+    color: #e6391b;
+  }
+}
+
+@media (max-width: 600px) and (max-height: 1300px) {
+  .contact_container {
+      padding: 0;
+      margin-bottom: .5em; /* Ajuste o valor de padding conforme necessário */
+      position: relative;
+      bottom: 50px;
+  }
+
+  .contact_container h1 {
+      font-size: 2em;
+      margin-bottom: .5em;
+  }
+  .contact_container .cnt {
+    font-size: 2em;
+    position: relative;
+    bottom: 50px; /* Ajuste o valor conforme necessário */
   }
   
-  @keyframes gradientAnimation {
-    0% {
-      color: #6b80eb;
-    }
-    20% {
-      color: #945ddb;
-    }
-    30% {
-      color: #833AB4;
-    }
-    40% {
-      color: #C13584;
-    }
-    50% {
-      color: #E1306C;
-    }
-    80% {
-      color: #FD1D1D;
-    }
-    90% {
-      color: #F56040;
-    }
-    100% {
-      color: #e6391b;
-    }
+  .contact_container h2 {
+      font-size: 1.05em;
+      margin-bottom: .1em;
+      color: rgb(95, 91, 91);
   }
+  .container_perfil .perfil {
+      width: 80px; /* Ajuste o valor conforme necessário */
+      position: relative;
+      top: 50px;
+  }
+
+  .qsm {
+      padding: 1em; /* Ajuste o valor de padding conforme necessário */
+      margin-bottom: 1em;
+  }
+
+  .qsm .qs {
+      margin-bottom: 1em;
+      font-size: 1.5em;
+  }
+
+  .contact_list {
+      padding: 1em; /* Ajuste o valor de padding conforme necessário */
+      margin-top: -em;
+      font-size: 23px;
+  }
+
+  .contact_list li a {
+      font-size: 1.5em; /* Ajuste o valor conforme necessário */
+  }
+  .contact_list li:first-child{
+    margin-right: 1em;
+    position: relative;
+    right: 10px;
+  }
+}
