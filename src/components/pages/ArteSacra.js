@@ -59,7 +59,7 @@ function ArteSacra(){
             </Link>
             
             <LinkButton to="/contact" text="Compre Agora"/>
-            <h2>Nossa Senhora de Aparecida</h2>
+            <h2>Nossa Senhora Aparecida</h2>
             <Link to="/contact">
               <img src={Aparecida} className={styles.aparecida} title="Gostou da Arte? Clique Aqui!"/>
             </Link>
