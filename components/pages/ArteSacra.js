@@ -6,6 +6,8 @@ import Fatima from '../../img/WhatsApp Image 2024-01-21 at 15.43.50 (2).jpeg';
 import Familia from '../../img/WhatsApp Image 2024-01-21 at 15.43.56.jpeg';
 import Arte from '../../img/WhatsApp Image 2024-01-21 at 15.43.53.jpeg';
 import Lourdes from '../../img/WhatsApp Image 2024-01-21 at 15.43.51.jpeg';
+import Luzia from '../../img/WhatsApp Image 2024-01-24 at 13.06.20 (1)';
+import Aparecida from '../../img/WhatsApp Image 2024-01-24 at 13.06.20';
 import LinkButton from '../layout/LinkButton';
 
 function ArteSacra(){
@@ -48,6 +50,18 @@ function ArteSacra(){
             <h2>Nossa Senhora de Lourdes</h2>
             <Link to="/contact">
               <img src={Lourdes} className={styles.lourdes} title="Gostou da Arte? Clique Aqui!"/>
+            </Link>
+            
+            <LinkButton to="/contact" text="Compre Agora"/>
+            <h2>Santa Luzia</h2>
+            <Link to="/contact">
+              <img src={Luzia} className={styles.luzia} title="Gostou da Arte? Clique Aqui!"/>
+            </Link>
+            
+            <LinkButton to="/contact" text="Compre Agora"/>
+            <h2>Nossa Senhora de Aparecida</h2>
+            <Link to="/contact">
+              <img src={Aparecida} className={styles.aparecida} title="Gostou da Arte? Clique Aqui!"/>
             </Link>
             
             <LinkButton to="/contact" text="Compre Agora"/>
