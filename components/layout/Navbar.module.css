@@ -18,6 +18,10 @@
     height: 70px;
     filter: drop-shadow(0 0 10px #e96949) brightness(1.3);
 }
+.navbar img:hover{
+    filter: drop-shadow(0 0 10px #e96949) brightness(1.6);
+}
+
 
 .item a::after{
   content: '';
