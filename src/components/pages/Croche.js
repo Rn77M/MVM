@@ -4,6 +4,8 @@ import Benedito from '../../img/WhatsApp Image 2024-01-21 at 15.43.57 (1).jpeg';
 import VestidoVermelho from '../../img/WhatsApp Image 2024-01-21 at 15.43.48 (2).jpeg';
 import VestidoVermelhoDois from '../../img/WhatsApp Image 2024-01-21 at 15.43.48.jpeg';
 import SaidaPraia from '../../img/720767f4-1bd5-481f-85d0-e47be4e0d9db.jpg';
+import Astro from '../../img/atronauta.jpg';
+import Cabecudos from '../../img/cabecudos.jpg';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import LinkButton from '../layout/LinkButton';
 
@@ -12,7 +14,19 @@ function Croche(){
         <>
           <section className={styles.croche_container}>
             <h1 className={styles.crc}>Crochê</h1>
-            <h1>Amigurumi de Santos</h1>
+            <h1>Amigurumi</h1>
+            <h2>Avengers</h2>
+            <Link to="/contact">
+              <img src={Cabecudos} className={styles.cabecudos} title="Gostou da Arte? Clique Aqui!"/>
+            </Link>
+            
+            <LinkButton className={styles.link} to="/contact" text="Compre Agora"/>
+            <h2>Astronauta</h2>
+            <Link to="/contact">
+              <img src={Astro} className={styles.astro} title="Gostou da Arte? Clique Aqui!"/>
+            </Link>
+            
+            <LinkButton className={styles.link} to="/contact" text="Compre Agora"/>
             <h2>Santa Terezinha</h2>
             <Link to="/contact">
               <img src={Terezinha} className={styles.terezinha} title="Gostou da Arte? Clique Aqui!"/>
@@ -55,10 +69,6 @@ function Croche(){
 
 
 export default Croche;
-
-
-
-
 
 
 
