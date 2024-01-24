@@ -17,6 +17,10 @@
     margin-bottom: .5em;
 }
 
+.home_container .mvm{
+    font-family: "Bebas Neue";
+}
+
 .home_container h1 span{
     color: #8a1607;
     padding: 0 .2em;
