@@ -12,14 +12,14 @@ function Contact(){
               <h1 className={styles.cnt}>Contatos</h1>
               <div>
                 <ul className={styles.contact_list}>
-                    <li className={styles.facebook}>
-                        <a href='https://www.facebook.com/maria.vicente.965580/?locale=pt_BR' target="_blank" title="Facebook"><FaFacebook/> Facebook </a>
-                    </li>
                     <li className={styles.instagram}>
                         <a href='https://www.instagram.com/mariavicente1215/' target='_blank' title="Instagram"><FaInstagram/> Instagram </a>
                     </li>
                     <li className={styles.whats}>
                         <a href='https://api.whatsapp.com/send?phone=82988747547' target="_blank" title="Whatsapp"><FaWhatsapp/> Whatsapp </a>
+                    </li>
+                    <li className={styles.facebook}>
+                        <a href='https://www.facebook.com/maria.vicente.965580/?locale=pt_BR' target="_blank" title="Facebook"><FaFacebook/> Facebook </a>
                     </li>
                 </ul>
               </div>
