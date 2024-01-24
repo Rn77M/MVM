@@ -13,7 +13,7 @@
 
 /* Estilo do indicador de rolagem (thumb) */
 ::-webkit-scrollbar-thumb {
-  background-color: #8a1607; /* Cor de fundo do indicador de rolagem */
+  background:linear-gradient(50deg, #8a1607, #e92f42) ; /* Cor de fundo do indicador de rolagem */
 }
 
 /* Estilo do indicador de rolagem quando hover */
