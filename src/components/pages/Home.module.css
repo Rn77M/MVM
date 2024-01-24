@@ -19,6 +19,8 @@
 
 .home_container .mvm{
     font-family: "Bebas Neue";
+    font-size: 140%;
+    border-radius: 10px;
 }
 
 .home_container h1 span{
