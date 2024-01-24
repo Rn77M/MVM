@@ -40,6 +40,8 @@
   border-radius: 20px;
   filter: contrast(120%);
   box-shadow: 4px 4px 20px 4px gray;
+  z-index: 999;
+  position: relative;
 }
 
 .qsm {
