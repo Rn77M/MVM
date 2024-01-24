@@ -5,8 +5,8 @@ import Maria from '../../img/mvicente.jpg';
 function Contact(){
     return (
         <>
-          <div className={styles.container_perfil}>
-            <img src={Maria} className={styles.perfil} title="Maria Vicente Melo"/>
+          <div className={styles.container_perfil} title="Maria Vicente Melo dos Santos">
+            <img src={Maria} className={styles.perfil}/>
           </div>
           <section className={styles.contact_container}>
               <h1 className={styles.cnt}>Contatos</h1>
