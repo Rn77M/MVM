@@ -18,7 +18,7 @@ function Home(){
     };
     return (
       <section className={styles.home_container}>
-        <h1>Bem-vindo ao <span>MVM</span></h1>
+        <h1>Bem-vindo ao <span className={styles.mvm} >MVM</span></h1>
         <p><em><strong>Maria Vicente Melo</strong></em></p>
         <p>Comece a comprar agora!</p>
         <Link onClick={scrollToTop} className={styles.project} to="/croche">
