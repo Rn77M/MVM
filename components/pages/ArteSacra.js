@@ -6,8 +6,8 @@ import Fatima from '../../img/WhatsApp Image 2024-01-21 at 15.43.50 (2).jpeg';
 import Familia from '../../img/WhatsApp Image 2024-01-21 at 15.43.56.jpeg';
 import Arte from '../../img/WhatsApp Image 2024-01-21 at 15.43.53.jpeg';
 import Lourdes from '../../img/WhatsApp Image 2024-01-21 at 15.43.51.jpeg';
-import Luzia from '../../img/WhatsApp Image 2024-01-24 at 13.06.20 (1)';
-import Aparecida from '../../img/WhatsApp Image 2024-01-24 at 13.06.20';
+import Luzia from '../../img/WhatsApp Image 2024-01-24 at 13.06.20 (1).jepg';
+import Aparecida from '../../img/WhatsApp Image 2024-01-24 at 13.06.20.jpeg';
 import LinkButton from '../layout/LinkButton';
 
 function ArteSacra(){
