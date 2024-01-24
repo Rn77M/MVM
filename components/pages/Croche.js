@@ -27,25 +27,25 @@ function Croche(){
               <img src={Cabecudos} className={styles.astro} title="Gostou da Arte? Clique Aqui!"/>
             </Link>
             
-            <LinkButton onClick={scrollToTop} className={styles.link} to="/contact" text="Compre Agora"/>
+            <LinkButton clicar={scrollToTop} className={styles.link} to="/contact" text="Compre Agora"/>
             <h2>Astronauta</h2>
             <Link onClick={scrollToTop} to="/contact">
               <img src={Astro} className={styles.astro} title="Gostou da Arte? Clique Aqui!"/>
             </Link>
             
-            <LinkButton onClick={scrollToTop}  className={styles.link} to="/contact" text="Compre Agora"/>
+            <LinkButton clicar={scrollToTop}  className={styles.link} to="/contact" text="Compre Agora"/>
             <h2>Santa Terezinha</h2>
             <Link onClick={scrollToTop} to="/contact">
               <img src={Terezinha} className={styles.terezinha} title="Gostou da Arte? Clique Aqui!"/>
             </Link>
             
-            <LinkButton onClick={scrollToTop} className={styles.link} to="/contact" text="Compre Agora"/>
+            <LinkButton clicar={scrollToTop} className={styles.link} to="/contact" text="Compre Agora"/>
             <h2>São Benedito</h2>
             <Link onClick={scrollToTop} to="/contact">
               <img src={Benedito} className={styles.benedito} title="Gostou da Arte? Clique Aqui!"/>
             </Link>
             
-            <LinkButton onClick={scrollToTop} to="/contact" text="Compre Agora"/>
+            <LinkButton clicar={scrollToTop} to="/contact" text="Compre Agora"/>
           </section>
           <section className={styles.croche_container}>
             <h1>Vestidos de Crochê</h1>
@@ -54,19 +54,19 @@ function Croche(){
               <img src={VestidoVermelho} className={styles.vestido} title="Gostou da Arte? Clique Aqui!"/>
             </Link>
             
-            <LinkButton onClick={scrollToTop} to="/contact" text="Compre Agora"/>
+            <LinkButton clicar={scrollToTop} to="/contact" text="Compre Agora"/>
             <h2>Saida de Praia</h2>
             <Link onClick={scrollToTop} to="/contact">
               <img src={SaidaPraia} className={styles.saida_praia} title="Gostou da Arte? Clique Aqui!"/>
             </Link>
             
-            <LinkButton onClick={scrollToTop} to="/contact" text="Compre Agora"/>
+            <LinkButton clicar={scrollToTop} to="/contact" text="Compre Agora"/>
             <h2>Saia - Vestido</h2>
             <Link onClick={scrollToTop} to="/contact">
               <img src={VestidoVermelhoDois} className={styles.vestido} title="Gostou da Arte? Clique Aqui!"/>
             </Link>
             
-            <LinkButton onClick={scrollToTop} to="/contact" text="Compre Agora"/>
+            <LinkButton clicar={scrollToTop} to="/contact" text="Compre Agora"/>
           </section>
         </>
     )
