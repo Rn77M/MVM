@@ -76,7 +76,7 @@
 }
 
 .home_container a {
-    margin-bottom: 1.5em;
+    margin-bottom: 3em;
 }
 .project{
     background: #8a1607;
@@ -87,7 +87,6 @@
     user-select: none;
     border: 1px solid transparent;
     border-radius: 10px;
-    margin-bottom: 3em;
     font-size: 20px;
     cursor: pointer;
     filter: drop-shadow(0 0 10px #850404) brightness(1.1);
