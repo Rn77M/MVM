@@ -80,6 +80,13 @@
     transform: scale(1.1);
 }
 
+.croche_container .astro{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(120%);
+    box-shadow: 4px 4px 20px 4px gray;
+}
 
 
 
