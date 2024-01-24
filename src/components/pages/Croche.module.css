@@ -78,6 +78,21 @@
     transform: scale(1.1);
 }
 
+.croche_container .astro{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(120%);
+}
+
+.croche_container .astro:hover{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(120%);
+    transform: scale(1.1);
+}
+
 
 
 @media (max-width: 600px) and (max-height: 1300px) {
@@ -108,7 +123,8 @@
     .croche_container .benedito,
     .croche_container .vestido,
     .croche_container .familia,
-    .croche_container .saida_praia {
+    .croche_container .saida_praia,
+     .croche_container .astro{
         width: 100%;
         max-width: 200px;
         margin: 1.2em;
@@ -121,7 +137,8 @@
     .croche_container .benedito:hover,
     .croche_container .vestido:hover,
     .croche_container .familia:hover,
-    .croche_container .saida_praia:hover {
+    .croche_container .saida_praia:hover,
+     .croche_container .astro:hover {
         width: 100%;
         max-width: 200px;
         margin: 1.2em;
