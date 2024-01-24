@@ -91,6 +91,20 @@
     filter: contrast(150%);
     box-shadow: 4px 4px 20px 4px gray;
 }
+.artesacra_container .luzia{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(140%);
+    box-shadow: 4px 4px 20px 4px gray;
+}
+.artesacra_container .aparecida{
+    width: 550px;
+    margin: 1.2em;
+    border-radius: 20px;
+    filter: contrast(140%);
+    box-shadow: 4px 4px 20px 4px gray;
+}
 
 
 
