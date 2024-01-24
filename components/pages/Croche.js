@@ -17,7 +17,7 @@ function Croche(){
             <h1>Amigurumi</h1>
             <h2>Avengers</h2>
             <Link to="/contact">
-              <img src={Cabecudos} className={styles.cabecudos} title="Gostou da Arte? Clique Aqui!"/>
+              <img src={Cabecudos} className={styles.astro} title="Gostou da Arte? Clique Aqui!"/>
             </Link>
             
             <LinkButton className={styles.link} to="/contact" text="Compre Agora"/>
