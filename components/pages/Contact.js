@@ -13,7 +13,7 @@ function Contact(){
               <div>
                 <ul className={styles.contact_list}>
                     <li className={styles.instagram}>
-                        <a href='https://www.instagram.com/mariavicente1215/' target='_blank' title="Instagram"><FaInstagram/> Instagram </a>
+                        <a href='https://www.instagram.com/maria.vcroche/' target='_blank' title="Instagram"><FaInstagram/> Instagram </a>
                     </li>
                     <li className={styles.whats}>
                         <a href='https://api.whatsapp.com/send?phone=82988747547' target="_blank" title="Whatsapp"><FaWhatsapp/> Whatsapp </a>
